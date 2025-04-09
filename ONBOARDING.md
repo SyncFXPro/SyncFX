@@ -9,10 +9,9 @@ This onboarding doc will help developers set up, contribute, and collaborate eff
 ## 🔧 Local Setup Instructions
 
 ### 1. Prerequisites
-
 - GitHub account (and collaborator access to the repo)
-- Git installed: [https://git-scm.com/](https://git-scm.com/)
-- GitHub Desktop (preferred for all devs): [https://desktop.github.com/](https://desktop.github.com/)
+- Git installed: https://git-scm.com/
+- GitHub Desktop (preferred for all devs): https://desktop.github.com/
 - Python 3.10+ installed
 - Node.js installed (optional – for bridge integration)
 - VS Code (recommended)
@@ -35,19 +34,16 @@ Use GitHub Desktop to clone the project:
 ### 3. Running Beat Detection (Python)
 
 Install required libraries:
-
 ```bash
 pip install librosa
 ```
 
 Run detection manually:
-
 ```bash
 python engine/beat_detector.py sample.mp3
 ```
 
 Or via JS bridge:
-
 ```bash
 node bridge/run_python.js
 ```
@@ -59,15 +55,12 @@ You should see beat timestamps printed to the terminal.
 ### 4. Git Workflow: Push & Pull
 
 #### Pushing your changes:
-
 Use the `push.bat` script (provided) to:
-
 - Stage all files
 - Prompt you for a commit message
 - Push to GitHub
 
 #### Pulling updates:
-
 Use `GitHub Desktop → Fetch origin → Pull` every time before you start your workday.
 
 ✅ This prevents conflicts and ensures your code is synced.
@@ -79,11 +72,9 @@ Use `GitHub Desktop → Fetch origin → Pull` every time before you start your 
 ### 💡 What happens when multiple devs edit the same file?
 
 #### Scenario: Different lines or functions
-
 ✅ Git will merge everything automatically. Your work and Sasha’s will both appear in the file.
 
 #### Scenario: Same line
-
 ⚠️ Git will flag a conflict. You’ll see both versions and will need to manually choose one.
 
 ```diff
@@ -122,7 +113,6 @@ SyncFX/
 ## 📌 Tasks, Issues & Tracking
 
 We use **GitHub Issues** to:
-
 - Track bugs
 - Assign tasks
 - Plan features
@@ -141,4 +131,3 @@ Go to: `https://github.com/SyncFXPro/SyncFX/issues`
 - Ask questions. Automate everything. Build together
 
 Welcome to the team 🧠⚙️
-
