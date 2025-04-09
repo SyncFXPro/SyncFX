@@ -1,8 +1,8 @@
-# 🧭 ONBOARDING.md – Welcome to SyncFx\_Pro
+# 🛍 ONBOARDING.md – Welcome to SyncFX
 
-Welcome to **SyncFx\_Pro** – a plugin that syncs music beats to video cuts and effects inside Adobe Premiere Pro.
+Welcome to **SyncFX** – a plugin that syncs music beats to video cuts and effects inside Adobe Premiere Pro.
 
-This onboarding doc will help developers set up, contribute, and collaborate effectively as part of the SyncFx team.
+This onboarding doc will help developers set up, contribute, and collaborate effectively as part of the SyncFX team.
 
 ---
 
@@ -25,8 +25,8 @@ This onboarding doc will help developers set up, contribute, and collaborate eff
 Use GitHub Desktop to clone the project:
 
 1. Click "Clone a repository from the Internet"
-2. Paste this URL: `https://github.com/SyncFXPro/SyncFx_Pro.git`
-3. Choose a local folder (example: `H:\SyncFx_Pro`)
+2. Paste this URL: `https://github.com/SyncFXPro/SyncFX.git`
+3. Choose a local folder (example: `H:\SyncFX`)
 
 ✅ Now you’re working locally.
 
@@ -101,7 +101,7 @@ tempo = 135
 ## 📁 Folder Structure
 
 ```text
-SyncFx_Pro/
+SyncFX/
 ├── engine/         # Python beat detection
 │   └── beat_detector.py
 ├── plugin/         # Premiere Pro panel (CEP)
@@ -127,7 +127,7 @@ We use **GitHub Issues** to:
 - Assign tasks
 - Plan features
 
-Go to: `https://github.com/SyncFXPro/SyncFx_Pro/issues`
+Go to: `https://github.com/SyncFXPro/SyncFX/issues`
 
 > Use Google Docs and Sheets for high-level planning, roadmaps, and brainstorming.
 
@@ -140,7 +140,5 @@ Go to: `https://github.com/SyncFXPro/SyncFx_Pro/issues`
 - Don't be afraid of merge conflicts – they’re normal
 - Ask questions. Automate everything. Build together
 
-Welcome to the team 🧠⚙️\
-\
-\
-\~ Eyal Katz
+Welcome to the team 🧠⚙️
+
