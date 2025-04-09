@@ -1,4 +1,4 @@
-# SyncFx_Pro™
+# SyncFx™
 
 A Premiere Pro plugin that syncs cuts, effects, and markers to music automatically.
 
